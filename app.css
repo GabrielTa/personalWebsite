@@ -1,0 +1,242 @@
+                                                                                                        /*INDEX.HTML*/
+body {
+   
+    background-size: cover;                                            /*the images covers entire pasge  */
+    background-position: center; 
+}
+body.home  {background: url(images/office-581131_1920.jpg);}               /*every page has a different class for seperate images */
+body.contact {background:url(images/desk-828962_1920.jpg);}
+body.about {background:url(images/typewriter-801921_1920.jpg);}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+
+.content{
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+                                                                                                                    /*eND OF iNDEX.html
+
+
+
+                                                                                                                    /*CONTACT FORM*/
+
+
+
+section#contact {
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+
+
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;          /*Multiple fonts incase the browser does not have them installed*/
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+}
+.gellary_bg_none img{
+    width: 100%;
+    height: 250px;
+}
+section#contact :-moz-placeholder {
+    
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+}
+section#contact ::-moz-placeholder {
+ 
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: grey;
+}
+section#contact .text-danger {
+    color: grey;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+
+
+
+
+
+                                                                                                                        /*END OF CONTACT FORM */
+
+                                                                                                                    /*START OF ABOUT PAGE*/
+.about-container {
+
+padding-top: 100px;
+padding-bottom: 0px;
+background-repeat: no-repeat;
+}
+
+.heading{
+text-align: center;
+font-size: 50px;
+font-weight: bold;
+}
+
+.lead {
+text-align: center;
+font-weight: bold;                                                                                                 
+}
+
+.centras{
+    text-align: center;
+}
+
+}
+
+.containeralbum {
+    padding-top: 50px;
+    padding-bottom: 0px;                 
+}
+.btn-primary {
+
+    margin-bottom: 50px;
+}
+
+.card-text{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Montserrat";
+    padding-top:5px;
+    
+}
+
+.card {
+    padding-bottom: 50px;       /*leaves some space between the top and bottom images */
+}
+
+/*pic zoom efect */
+
+
+
+
+
+.image:hover img {
+    -webkit-transform:scale(1.05); 
+ 
+     transform:scale(1.05);
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    transition: all 1s ease;
+    border-radius: 50px;    /*rounded cornesr */
+    border-color:white;
+    border: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+/*end of zoom effect*/
+
+
+
+/*footer*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 0px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 50px; 
+}
+.site-footer {
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end of footer*/
+
